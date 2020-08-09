@@ -1,5 +1,5 @@
 .body {
-    background-color: rgb(42, 42, 43);
+    background: linear-gradient(90deg ,rgb(131, 71, 131),rgb(147, 206, 216));
 }
 
 #title {
@@ -209,6 +209,7 @@
 
 #foodDescription
 {
+    z-index: -1;
    background: linear-gradient(45deg,rgb(0, 174, 255),rgb(82, 37, 204));
    border-radius: 4px;
    width: 250px;
@@ -315,7 +316,7 @@
     text-align: center;
     height: 20px;
     width: 130px;
-    background-color: rgba(175, 174, 174, 0.548);
+    background-color: rgba(151, 134, 151, 0.548);
     padding: 3px;
     border-radius: 5px;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.466);
@@ -323,6 +324,9 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    z-index: 1;
+    color:black
+
 
 }
 .ol {
@@ -333,7 +337,18 @@
     margin: 10px;
 }
 .steps {
+
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    height: auto;
+    width: 500px;
+    background-color: rgba(175, 174, 174, 0.548);
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.466);
     margin-top: 12px;
+    /* margin-top: 12px;
     background-color: rgba(175, 174, 174, 0.548);
     padding: 3px;
     border-radius: 5px;
@@ -341,6 +356,69 @@
     display: flex;
     height: auto;
     width: auto;
-    justify-content: center;
+    justify-content: center; */
 
 }
+
+#mainTitle
+{
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+
+    margin-left: auto;
+    margin-right: auto;
+    position: -webkit-sticky;
+    border-radius: 0px 0px 10px 10px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(121, 199, 147);
+    height: 80px;
+    width: 500px;
+    margin-top: 0;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.466);
+    
+}
+#about
+{
+    font-family: montserrat, thin;
+    font-style: normal;
+    font-weight: 20px;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height:  40px;
+    margin: 50px;
+}
+
+#p4
+{
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    text-align: center;
+    height: 20px;
+    width: 140px;
+    background-color: rgba(175, 174, 174, 0.548);
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.466);
+    margin-left: 30%;
+    margin-top: 1px;
+    
+}
+
+
+#about a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+    
+}
+
+#about img{
+    height: 10px;
+}
+
+
